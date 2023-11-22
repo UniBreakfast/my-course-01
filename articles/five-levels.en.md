@@ -1,6 +1,6 @@
-## [Русский](five-levels.ru.md) | English | [Українська](five-levels.ua.md)
-
 # 5 levels to think on for a programmer
+
+## [Русский](five-levels.ru.md) | English | [Українська](five-levels.ua.md)
 
 Programming in the context of the web and JavaScript is somewhat more complicated than just writing code. It requires thoughtful organization of projects, data and interaction systems. In this article we will consider five main levels of thinking that a programmer should differentiate in order for his reasoning not to turn into a mess, and projects - into balls of incomprehensible coddity.
 
