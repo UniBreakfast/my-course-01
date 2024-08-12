@@ -32,9 +32,9 @@ Different types can be operated on with different complexity, execution speed an
 
 At this level we decide how and what data we store. On the next - how we work with it.
 
-### 4th level. Entities that operate on data
+### 4th level. Binding entities that operate on data
 
-It is important to keep in mind that without being tied to entities, the created data is almost immediately destroyed by the garbage collector to free up memory. To avoid this, it is necessary to link values to entities that provide access to them and the ability to manipulate them. These are variables, constants, parameters and properties for storing data and accessing it, as well as functions, methods and classes for creation and multi-step operations on them.
+It is important to keep in mind that without being tied to entities, the created data is almost immediately destroyed by the garbage collector to free up memory. To avoid this, it is necessary to link values to entities or bindings that provide access to them and the ability to manipulate them. These are variables, constants, parameters and properties for storing data and accessing it, as well as functions, methods and classes for creation and multi-step operations on them.
 
 **Variables and constants** are named references to data. **Functions** are anonymous or named blocks of code that can be called however many times their execution is required. **Parameters** are named references to values passed to a function (**arguments**). **Properties** are references to data belonging to an object, named uniquely within it with **keys**. Array cells, numbered by indexes, actually are also object properties (and indexes are their keys). **Methods** are functions belonging to an object. **Constructor functions or Classes** are templates for creating typical objects (instances).
 
